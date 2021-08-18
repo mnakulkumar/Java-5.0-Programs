@@ -8,7 +8,7 @@ class TestSync implements Runnable {
         }        
     }
 
-    public void increment(){
+    public synchronized void increment(){
         int i = balance;
         System.out.println(Thread.currentThread().getName() + ", i = "+i);
         balance = i + 1;
