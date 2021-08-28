@@ -1,16 +1,16 @@
-Baby/Justin Beiber
-Hit The Lights/Selena Gomez
-Senorita/Camila Cabello
-Shape Of You/Ed Sheeran
-Hips Don't Lie/Shakira
-Blinding Lights/The Weekend
-Happy/Pharrel Williams
-Can't Stop The Feeling/Justin Timberlake
-I Got You/Bebe Rexha
-Bad Romance/Lady Gaga
-Teenage Dreams/Katty Perry
-Bodak Yellow/Cardi B
-Turn Up The Music/Chris Brown
-Love The Way You Lie/Eminem ft. Rihanna
-I Like It/Enrique Iglesias
-Rain Over Me/Marc Anthony
+Baby/Justin Beiber/8/80
+Hit The Lights/Selena Gomez/7/60
+Senorita/Camila Cabello/9/84
+Shape Of You/Ed Sheeran/10/120
+Hips Don't Lie/Shakira/4/90
+Blinding Lights/The Weekend/6/110
+Happy/Pharrel Williams/9/70
+Can't Stop The Feeling/Justin Timberlake/4/120
+I Got You/Bebe Rexha/7/100
+Bad Romance/Lady/5/80
+Teenage Dreams/Katty Perry/6/120
+Bodak Yellow/Cardi B/5/100
+Turn Up The Music/Chris Brown/4/90
+Love The Way You Lie/Eminem ft. Rihanna/9/60
+I Like It/Enrique Iglesias/7/120
+Rain Over Me/Marc Anthony/8/100
