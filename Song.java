@@ -6,15 +6,15 @@ class Song implements Comparable<Song>{
 
     public boolean equals(Object aSong){
         Song s =(Song) aSong;
-        return getTitle().equals(s.getTitle());
+        return getTitle().equals(s.getTitle()); //String class's overrided equals method will work here
     }
 
     public int hashCode(){
-        return title.hashCode();
+        return title.hashCode(); //String class's overrided hashcode method will work here
     }
 
     public int compareTo(Song s){
-        return title.compareTo(s.getTitle());
+        return title.compareTo(s.getTitle()); //String class's overrided compareTo method will work here
     }
 
     Song(String t,String a,String r, String b){
