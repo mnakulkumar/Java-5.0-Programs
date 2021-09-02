@@ -14,7 +14,7 @@ class Song implements Comparable<Song>{
     }
 
     public int compareTo(Song s){
-        return title.compareTo(s.getTitle()); //String class's overrided compareTo method will work here
+        return title.compareTo(s.getTitle()); //String class's compareTo method will work here
     }
 
     Song(String t,String a,String r, String b){
