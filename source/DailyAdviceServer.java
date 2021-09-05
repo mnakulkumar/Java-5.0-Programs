@@ -7,8 +7,14 @@ public class DailyAdviceServer{
     public void go(){
         try{
             ServerSocket serverSock = new ServerSocket(4242);
+            System.out.println("************");
+            int i=0;
             while(true){
+                i=i+1;
+
+                System.out.println("Client Request No."+i);
                 Socket sock = serverSock.accept();
+                System.out.println("CLIENT REQUEST ACCEPTED");
 
                 PrintWriter writer = new PrintWriter(sock.getOutputStream());
                 String advice = getAdvice();
@@ -29,7 +35,9 @@ public class DailyAdviceServer{
     }  
 
     public static void main(String[] args) {
+        System.out.println("MAIN");
         DailyAdviceServer server = new DailyAdviceServer();
         server.go();
+        
     }
 }

@@ -9,7 +9,7 @@ public class TestGenerics1 {
         Animal[] animals = {new Dog(), new Cat(), new Dog()};
         Dog[] dogs = {new Dog(), new Dog(), new Dog()};
         takeAnimals(animals);
-        takeAnimals(dogs);
+        takeAnimals(dogs);        
     }
 
     public void takeAnimals(Animal[] animals){

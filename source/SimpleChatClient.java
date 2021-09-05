@@ -10,7 +10,7 @@ public class SimpleChatClient{
     JTextField outgoing;
     BufferedReader reader;
     PrintWriter writer;
-    Socket sock;
+    Socket sock;    
 
     public static void main(String[] args){
         SimpleChatClient client = new SimpleChatClient();
@@ -20,7 +20,7 @@ public class SimpleChatClient{
     public void go(){
         JFrame frame = new JFrame("Ludicrously Simple Chat Client");
         JPanel mainPanel= new JPanel();
-        incoming = new JTextArea(15,50);
+        incoming = new JTextArea(15,50);               
         incoming.setLineWrap(true);
         incoming.setWrapStyleWord(true);
         incoming.setEditable(false);
@@ -75,9 +75,10 @@ public class SimpleChatClient{
             try{
                 while((message = reader.readLine()) != null){
                     System.out.println("read " + message);
-                    incoming.append(message + "\n");
+                    incoming.append(message + "\n");                    
                 }
             } catch(Exception ex){ex.printStackTrace();}
+            
         }
     }
 
